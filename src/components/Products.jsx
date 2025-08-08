@@ -18,7 +18,7 @@ const Products = () => {
         setFilter(await response.json());
         setLoading(false);
       }
-
+       // react-hooks/exhaustive-deps
       return () => {
         componentMounted = false;
       };
